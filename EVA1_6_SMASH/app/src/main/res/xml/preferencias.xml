@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Second Category">
+        <ListPreference
+            android:title="Pick your favourite color"
+            android:key="listPref"
+            android:defaultValue="1"
+            android:entries="@array/entradas"
+            android:entryValues="@array/valores"
+            />
+    </PreferenceCategory>
+    <PreferenceScreen
+        android:title="Mas opciones...">
+        <PreferenceCategory
+            android:title="Style Category">
+            <ListPreference
+                android:title="Pick your style"
+                android:key="listPref1"
+                android:defaultValue="1"
+                android:entries="@array/Letras"
+                android:entryValues="@array/val_letras" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Lenguage Category">
+            <ListPreference
+                android:title="Pick your Lenguage"
+                android:key="listPref2"
+                android:defaultValue="1"
+                android:entries="@array/Idioma"
+                android:entryValues="@array/val_idiomas" />
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

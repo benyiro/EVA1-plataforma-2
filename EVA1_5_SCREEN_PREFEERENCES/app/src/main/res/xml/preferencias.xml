@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <EditTextPreference
+      android:title="Nombre:"
+      android:key="NOMBRE"
+      android:summary="Introduce el nombre"/>
+
+    <CheckBoxPreference
+        android:title="Sexo:"
+        android:key="SEXO"
+        android:summary="Valor para el sexo del usuario"
+        android:defaultValue="true"/>
+    <PreferenceScreen
+        android:title="Mas opciones...">
+        <EditTextPreference
+            android:title="Titulo de la app:"
+            android:key="APP_NOM"
+            android:summary="Introduce el titulo"/>
+       <ListPreference
+           android:title="Temas"
+           android:key="TEMAS"
+           android:summary="Selecciona el tema preferido"
+           android:entries="@array/entradas"
+           android:entryValues="@array/valores"
+           >
+
+       </ListPreference>
+
+    </PreferenceScreen>
+
+
+</PreferenceScreen>

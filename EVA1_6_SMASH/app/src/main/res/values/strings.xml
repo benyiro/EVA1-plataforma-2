@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EVA1_6_SMASH</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Name">Name</string>
+    <string name="Last_name">Last Name</string>
+    <string name="Nom">Nom</string>
+    <string name="Prenom">Prenom</string>
+    <string name="title_activity_secundaria">Secundaria</string>
+
+    <string-array name="entradas">
+        <item>ROJO</item>
+        <item>AZUL</item>
+    </string-array>
+    <string-array name="valores">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="Letras">
+        <item>chica</item>
+        <item>mediana</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="val_letras">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Idioma">
+        <item>Espanol</item>
+        <item>Ingles</item>
+        <item>Frances</item>
+    </string-array>
+    <string-array name="val_idiomas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EVA1_5_SCREEN_PREFEERENCES</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="entradas">
+        <item>ROJO</item>
+        <item>AZUL</item>
+        <item>AMARILLO</item>
+        <item>NEGRO</item>
+    </string-array>
+    <string-array name="valores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

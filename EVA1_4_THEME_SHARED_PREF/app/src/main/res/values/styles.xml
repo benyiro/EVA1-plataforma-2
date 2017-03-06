@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="Amarillo">
+         <item name="android:background">#F7FE2E</item>
+        <item name="android:textColor">#141907</item>
+        </style>
+
+    <style name="Verde">
+        <item name="android:background">#31B404</item>
+        <item name="android:textColor">#FF4000</item>
+    </style>
+
+</resources>

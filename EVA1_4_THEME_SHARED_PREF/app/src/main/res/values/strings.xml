@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EVA1_4_THEME_SHARED_PREF</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
